@@ -26,6 +26,9 @@ return [
         'storage' => [
             'class' => 'portalium\storage\Module',
         ],
+        'workspace' => [
+            'class' => 'portalium\workspace\Module',
+        ]
     ],
     'components' => [
         'request' => [
@@ -65,7 +68,7 @@ return [
         ],
     ],
     'layout' => 'dashboard',
-    'layoutPath' => '@vendor/portalium/portalium-theme/src/layouts',
+    'layoutPath' => '@vendor/portalium/yii2-theme/src/layouts',
     'params' => [
         'bsVersion' => '5.x',
     ]
